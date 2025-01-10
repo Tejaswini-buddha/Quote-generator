@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/328/693/original/3d-white-particle-wave-pattern-on-a-black-background-digital-abstract-background-can-be-applied-for-web-design-website-wallpaper-banner-or-cover-illustration-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'times new roman';
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'georgia';
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
